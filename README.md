@@ -1,4 +1,5 @@
 Authentication with fastapi and jwt
+cd realistic
 =======
 ## Dependencies
 * bcrypt==3.1.7  
@@ -16,12 +17,18 @@ Authentication with fastapi and jwt
 ### run command
 uvicorn main:api
 ## Screens
+Add new user  
 ![Add new user](https://github.com/fredhmacau/authentication-with-fastapi-and-jwt/blob/main/realistic/screen/Captura%20de%20ecr%C3%A3%20de%202022-01-04%2015-56-28.png)
+Response status  
 ![Response status](https://github.com/fredhmacau/authentication-with-fastapi-and-jwt/blob/main/realistic/screen/Captura%20de%20ecr%C3%A3%20de%202022-01-04%2015-58-05.png)
+Authentication  
 ![Authentication](https://github.com/fredhmacau/authentication-with-fastapi-and-jwt/blob/main/realistic/screen/Captura%20de%20ecr%C3%A3%20de%202022-01-04%2016-09-45.png)
+esponse jwt and type  
 ![Response jwt and type](https://github.com/fredhmacau/authentication-with-fastapi-and-jwt/blob/main/realistic/screen/Captura%20de%20ecr%C3%A3%20de%202022-01-04%2015-58-58.png)
+view current user with header {"Authentication":"Bearer [token]"}  
 ![
 view current user with header {"Authentication":"Bearer [token]"}](https://github.com/fredhmacau/authentication-with-fastapi-and-jwt/blob/main/realistic/screen/Captura%20de%20ecr%C3%A3%20de%202022-01-04%2016-09-45.png)
+Response  
 ![Response](https://github.com/fredhmacau/authentication-with-fastapi-and-jwt/blob/main/realistic/screen/Captura%20de%20ecr%C3%A3%20de%202022-01-04%2016-04-21.png)
 
 
